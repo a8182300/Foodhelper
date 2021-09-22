@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fri_e001">請輸入相關名稱
+    </string>
+    <string name="b001">新增物品</string>
+
+    <string name="menu_setting">個人設定</string>
+    <string name="menu_notify">通知設定</string>
+    <string name="menu_fb">FB粉絲專頁</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_member">關於組員</string>
+    <string name="menu_member_message">第一組組員:</string>
+    <string name="menu_message">是否開啟通知</string>
+    <string name="menu_ok">確定</string>
+    <string name="menu_no">否</string>
+    <string name="fri_i001">品名:</string>
+    <string name="fri_i002">有效期限:</string>
+    <string name="fri_count">筆數:</string>
+    <string name="fridge_del">刪除物品</string>
+    <string name="fridge_list">物品清單</string>
+
+    <string name="m_altitle">清空所有資料</string>
+    <string name="m_message">資料刪除無法復原\n確定將所有資料刪除嗎?</string>
+</resources>

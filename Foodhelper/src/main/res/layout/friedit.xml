@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/teal_200"
+        android:orientation="vertical"
+
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="start|center_vertical"
+            android:text="食品名稱:"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/friedit_e001"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="#03A9F4"
+        android:orientation="vertical"
+        android:padding="@dimen/p015">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="start|center_vertical"
+            android:text="保存期限:"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <DatePicker
+            android:id="@+id/friedit_date01"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Aqua"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/friedit_date02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/p020">
+
+        <Button
+            android:id="@+id/friedit_b001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:password="false"
+            android:text="@string/friedit_b001"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/friedit_b002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_default_small"
+            android:text="@string/friedit_b002"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

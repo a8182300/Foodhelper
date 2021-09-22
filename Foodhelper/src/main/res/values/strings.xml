@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">食物小幫手</string>
+
+    <string name="shop_name">購物清單</string>
+    <string name="cook_name">料理廚藝</string>
+
+    <string name="hint">搜尋:</string>
+    <string name="shoplist_name">購物清單編輯</string>
+
+    <string name="expired_name">過期管理</string>
+    <string name="action_settings">結束</string>
+</resources>

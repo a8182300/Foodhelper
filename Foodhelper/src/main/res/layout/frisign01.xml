@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    android:orientation="vertical"
+    tools:context=".Frisign01">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="356dp"
+        android:layout_height="282dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/sss" />
+
+    <Button
+        android:id="@+id/fri_b000"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/p020"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="@dimen/p020"
+        android:background="@color/teal_200"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/b001"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/fri_del001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fri_b000"
+        android:layout_alignEnd="@+id/fri_b000"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/teal_200"
+        android:text="@string/fridge_del"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/fri_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fri_del001"
+        android:layout_alignEnd="@+id/fri_b000"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/teal_200"
+        android:text="@string/fridge_list"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fri_b000"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/Silver"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/p010">
+
+            <TextView
+                android:id="@+id/txtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/Silver"
+                android:text="@string/fri_i001"
+                android:textColor="@color/Blue"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fri_i002" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fri_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fri_b000"
+        android:layout_alignEnd="@+id/fri_b000"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/fri_count"
+        android:visibility="invisible" />
+
+</RelativeLayout>
